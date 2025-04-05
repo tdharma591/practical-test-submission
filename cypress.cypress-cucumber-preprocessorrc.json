@@ -1,0 +1,12 @@
+{
+  "json": {
+    "enabled": true,
+    "output": "cypress/reports/cucumber-json/results.json"
+  },
+  "stepDefinitions": [
+    "cypress/e2e/ui/step_definitions/*.js",
+    "cypress/e2e/api/step_definitions/*.js"
+  ],
+  "filterSpecs": true,
+  "omitFiltered": true
+}

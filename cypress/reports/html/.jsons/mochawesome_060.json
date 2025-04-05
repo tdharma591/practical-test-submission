@@ -1,0 +1,94 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-04-05T10:19:15.295Z",
+    "end": "2025-04-05T10:19:15.556Z",
+    "duration": 261,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8dd032fd-c802-43c2-a24a-b513918eeecd",
+      "title": "",
+      "fullFile": "cypress/e2e/ui/features/amphoraWebsite.feature",
+      "file": "cypress/e2e/ui/features/amphoraWebsite.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 239,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "throw err;",
+          "err": {
+            "message": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > hen is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > hen is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at cypress/support/step_definitions/amphoraSteps.js (https://amphora.net/__cypress/tests?p=cypress/e2e/ui/features/amphoraWebsite.feature:14057:7)\n    at __require (https://amphora.net/__cypress/tests?p=cypress/e2e/ui/features/amphoraWebsite.feature:9:52)\n    at eval (https://amphora.net/__cypress/tests?p=cypress/e2e/ui/features/amphoraWebsite.feature:14083:3)\n    at eval (https://amphora.net/__cypress/tests?p=cypress/e2e/ui/features/amphoraWebsite.feature:14086:3)\n    at eval (<anonymous>)\n    at <unknown> (https://amphora.net/__cypress/runner/cypress_runner.js:111955:23)\n    at tryCatcher (https://amphora.net/__cypress/runner/cypress_runner.js:1777:23)\n    at Object.gotValue (https://amphora.net/__cypress/runner/cypress_runner.js:6446:18)\n    at Object.gotAccum (https://amphora.net/__cypress/runner/cypress_runner.js:6435:25)\n    at Object.tryCatcher (https://amphora.net/__cypress/runner/cypress_runner.js:1777:23)",
+            "diff": null
+          },
+          "uuid": "ddacb3a2-9249-4070-a2fa-128105f763f3",
+          "parentUUID": "8dd032fd-c802-43c2-a24a-b513918eeecd",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "ddacb3a2-9249-4070-a2fa-128105f763f3"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 239,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "Cypress Test Report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports/html/.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
